@@ -1,0 +1,13 @@
+[Files List]
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\STD/src/standard.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/stdlogic.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/arith.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/unsigned.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/numstd.vhd=S
+C:\My_Designs\banco_comp/src/Extensor_Signo.vhd=S
+C:\My_Designs\banco_comp/src/Demux.vhd=S
+C:\My_Designs\banco_comp/src/Alu.vhd=S
+C:\My_Designs\banco_comp/src/Banco_Registros.vhd=S
+C:\My_Designs\banco_comp/src/Control.vhd=S
+C:\My_Designs\banco_comp/src/Instruccion.vhd=S
+C:\My_Designs\banco_comp/compile/top.vhd=S

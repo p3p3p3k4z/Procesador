@@ -1,0 +1,7 @@
+.\src\Instruccion.vhd
+.\src\Banco_Registros.vhd
+.\src\Control.vhd
+.\src\Alu.vhd
+.\src\Extensor_Signo.vhd
+.\src\Demux.vhd
+.\src\top.bde

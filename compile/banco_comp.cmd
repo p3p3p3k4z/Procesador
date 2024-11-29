@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\bancov22\library.cfg"  -j "c:\Users\Mario\Documents\arquitectura_computadoras\banco_comp\projlib.cfg"  -d "c:\Users\Mario\Documents\arquitectura_computadoras\banco_comp\compile\"  -work banco_comp -dbg -e 100 "c:\Users\Mario\Documents\arquitectura_computadoras\banco_comp\src\Alu.vhd" 

@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+[Configurations]
+compile=banco_comp
+[Library]
+banco_comp=.\banco_comp.lib
+[$LibMap$]
+banco_comp=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+[IMPLEMENTATION]
+UCF=
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=top|top|0 
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+/Instruccion.vhd=-1
+/Banco_Registros.vhd=-1
+/Control.vhd=-1
+/Alu.vhd=-1
+/Extensor_Signo.vhd=-1
+/Demux.vhd=-1
+/top.bde=-1
+/positivo.awf=-1
+/negativo.awf=-1
+[Files.Data]
+.\src\Instruccion.vhd=VHDL Source Code
+.\src\Banco_Registros.vhd=VHDL Source Code
+.\src\Control.vhd=VHDL Source Code
+.\src\Alu.vhd=VHDL Source Code
+.\src\Extensor_Signo.vhd=VHDL Source Code
+.\src\Demux.vhd=VHDL Source Code
+.\src\top.bde=Block Diagram
+.\src\positivo.awf=Waveform File
+.\src\negativo.awf=Waveform File
+[file_out:/top.bde]
+/\compile\top.vhd=-1
