@@ -1,0 +1,24 @@
+elbread.dll ver. 1.0.5.325 Wed Dec 11 19:41:16 2024
+
+
+--------------------------------------------------------
+Entity              | Architecture | Library          
+--------------------------------------------------------
+top                 | top          | BancoRegistroNombre
+sign_extend         | behavioral   | bancoregistronombre
+mux_extend          | behavior     | bancoregistronombre
+instruccion         | behavior     | bancoregistronombre
+banco_de_registros  | behavioral   | bancoregistronombre
+alu_control         | behavior     | bancoregistronombre
+alu                 | behavior     | bancoregistronombre
+--------------------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+numeric_std         | ieee
+-----------------------------

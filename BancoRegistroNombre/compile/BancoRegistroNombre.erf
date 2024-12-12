@@ -1,0 +1,4 @@
+MESSAGE "File: .\TOP.vhd" 
+MESSAGE "Compile Entity "TOP"" 
+MESSAGE "Compile Architecture "TOP" of Entity "TOP"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

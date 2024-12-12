@@ -1,0 +1,15 @@
+142
+~E 1 "./src/Instruccion.vhd" 4 instruccion
+~A 1 "./src/Instruccion.vhd" 18 behavior
+~E 1 "./src/ALU_CONTROL.vhd" 4 alu_control
+~A 1 "./src/ALU_CONTROL.vhd" 15 behavior
+~E 1 "./src/ALU.vhd" 5 alu
+~A 1 "./src/ALU.vhd" 14 behavior
+~E 1 "./src/Banco_de_Registros.vhd" 6 banco_de_registros
+~A 1 "./src/Banco_de_Registros.vhd" 19 behavioral
+~E 1 "./src/Sign_Extend.vhd" 4 sign_extend
+~A 1 "./src/Sign_Extend.vhd" 11 behavioral
+~E 1 "./src/MUX_EXTEND.vhd" 4 mux_extend
+~A 1 "./src/MUX_EXTEND.vhd" 13 behavior
+~E 1 "./compile/TOP.vhd" 25 top
+~A 1 "./compile/TOP.vhd" 32 top

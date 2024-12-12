@@ -1,0 +1,7 @@
+.\src\Banco_de_Registros.vhd
+.\src\ALU_CONTROL.vhd
+.\src\MUX_EXTEND.vhd
+.\src\Sign_Extend.vhd
+.\src\ALU.vhd
+.\src\Instruccion.vhd
+.\src\TOP.bde

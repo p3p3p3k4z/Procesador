@@ -1,5 +1,0 @@
-MESSAGE "File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_comp\src\Alu.vhd" 
-MESSAGE "Compile Entity "Alu"" 
-MESSAGE "Entity `Alu' has been skipped - no difference detected." 
-MESSAGE "Compile Architecture "behavior" of Entity "Alu"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

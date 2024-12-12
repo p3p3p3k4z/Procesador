@@ -1,0 +1,75 @@
+acom $DSN/src/banco_de_registros.vhd $DSN/src/alu_control.vhd $DSN/src/mux_extend.vhd $DSN/src/sign_extend.vhd $DSN/src/alu.vhd $DSN/src/instruccion.vhd
+# Compile...
+# File: c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\src\Banco_de_Registros.vhd
+# Compile Entity "Banco_de_Registros"
+# Entity `Banco_de_Registros' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Banco_de_Registros"
+acom $DSN/src/TOP.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\src\TOP.bde'.
+# DRC: TOP.bde - 0 error(s), 0 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\compile\TOP.vhd from c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\src\TOP.bde ...
+# Generation successful
+# File: .\TOP.vhd
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  -retry 3  top top
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1354 kB (elbread=1071 elab2=230 kernel=53 sdf=0)
+# 7:39 p.m., miércoles, 11 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: top (top)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pa

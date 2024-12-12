@@ -1,0 +1,87 @@
+[alu]
+A/behavior=21|./src/ALU.vhd|14|1*50680
+B/behavior=3*26423
+H/behavior=0*48238
+R=./src/ALU.vhd|5
+S/alu=S/ALU 40|0|2*3073
+V=0*24038
+
+[alu_control]
+A/behavior=21|./src/ALU_CONTROL.vhd|15|1*44613
+B/behavior=3*21519
+H/behavior=0*46290
+R=./src/ALU_CONTROL.vhd|4
+S/alu_control=S/ALU_CONTROL 40|0|2*4829
+V=0*12531
+
+[banco_de_registros]
+A/behavioral=A/Behavioral 21|./src/Banco_de_Registros.vhd|19|1*34358
+B/behavioral=3*19797
+H/behavioral=0*41526
+R=./src/Banco_de_Registros.vhd|6
+S/banco_de_registros=S/Banco_de_Registros 40|0|2*0
+V=0*6775
+
+[instruccion]
+A/behavior=21|./src/Instruccion.vhd|18|1*54736
+B/behavior=3*32047
+H/behavior=0*49853
+R=./src/Instruccion.vhd|4
+S/instruccion=S/Instruccion 40|0|2*7240
+V=0*32974
+
+[mux_extend]
+A/behavior=21|./src/MUX_EXTEND.vhd|13|1*47315
+B/behavior=3*24883
+H/behavior=0*47352
+R=./src/MUX_EXTEND.vhd|4
+S/mux_extend=S/MUX_EXTEND 40|0|2*10717
+V=0*16345
+
+[sign_extend]
+A/behavioral=A/Behavioral 21|./src/Sign_Extend.vhd|11|1*48915
+B/behavioral=3*25586
+H/behavioral=0*47760
+R=./src/Sign_Extend.vhd|4
+S/sign_extend=40|0|2*13863
+V=0*39980
+
+[top]
+A/top=A/TOP 24|.\src\TOP.bde|10000|1*58953
+H/top=0*51693
+R=./compile/TOP.vhd|25
+V=0*76541
+
+[~A]
+./compile/TOP.vhd~TOP=60|0*51426*51632
+./compile/TOP.vhd~TOPTOP=60|0*72911*76037
+./src/ALU.vhd~ALU=60|0*21127*21474
+./src/ALU.vhd~behaviorALU=60|0*48329*49788
+./src/ALU_CONTROL.vhd~ALU_CONTROL=60|0*10003*10403
+./src/ALU_CONTROL.vhd~behaviorALU_CONTROL=60|0*46381*47271
+./src/Banco_de_Registros.vhd~Banco_de_Registros=60|0*0*560
+./src/Banco_de_Registros.vhd~BehavioralBanco_de_Registros=60|0*44995*46193
+./src/Instruccion.vhd~Instruccion=60|0*29206*29753
+./src/Instruccion.vhd~behaviorInstruccion=60|0*50250*51345
+./src/MUX_EXTEND.vhd~MUX_EXTEND=60|0*14754*15077
+./src/MUX_EXTEND.vhd~behaviorMUX_EXTEND=60|0*47443*47681
+./src/Sign_Extend.vhd~BehavioralSign_Extend=60|0*47855*48155
+./src/Sign_Extend.vhd~Sign_Extend=60|0*39060*39317
+ModifyID=142
+Version=73
+
+[~MFT]
+0=135|0BancoRegistroNombre.mgf|76541|18155
+1=26|1BancoRegistroNombre.mgf|58953|34358
+2=7|2BancoRegistroNombre.mgf|13863|1410
+3=25|3BancoRegistroNombre.mgf|32047|19797
+
+[~U]
+alu=ALU 11|0*23146|0*23373|3
+alu_control=ALU_CONTROL 11|0*11538|0*11831|3
+banco_de_registros=Banco_de_Registros 11|0*5411|0*5770|3
+instruccion=Instruccion 11|0*31399|0*31804|3
+mux_extend=MUX_EXTEND 11|0*15556|0*15788|3
+sign_extend=11|0*39390|0*39568|3
+top=TOP 11|0*76101|0*76238
+

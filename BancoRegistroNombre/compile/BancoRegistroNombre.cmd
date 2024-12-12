@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\BancoRegistrosv3\library.cfg"  -j "c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\projlib.cfg"  -d "c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\compile\"  -work BancoRegistroNombre -dbg -e 100 "c:\My_Designs\BancoRegistrosv3\BancoRegistroNombre\compile\TOP.vhd" 

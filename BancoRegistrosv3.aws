@@ -1,0 +1,12 @@
+[Version]
+Version=6.2
+[Designs]
+bancoregistronombre=.\BancoRegistroNombre\BancoRegistroNombre.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+bancoregistronombre=1

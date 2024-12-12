@@ -1,0 +1,56 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=BancoRegistroNombre
+
+[Library]
+BancoRegistroNombre=.\BancoRegistroNombre.lib
+
+[$LibMap$]
+BancoRegistroNombre=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=banco_de_registros|behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Banco_de_Registros.vhd=-1
+/ALU_CONTROL.vhd=-1
+/MUX_EXTEND.vhd=-1
+/Sign_Extend.vhd=-1
+/ALU.vhd=-1
+/Instruccion.vhd=-1
+/TOP.bde=-1
+/nueva_pruebav3.awf=-1
+
+[Files.Data]
+.\src\Banco_de_Registros.vhd=VHDL Source Code
+.\src\ALU_CONTROL.vhd=VHDL Source Code
+.\src\MUX_EXTEND.vhd=VHDL Source Code
+.\src\Sign_Extend.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\Instruccion.vhd=VHDL Source Code
+.\src\TOP.bde=Block Diagram
+.\src\nueva_pruebav3.awf=Waveform File
+
+[file_out:/TOP.bde]
+/\compile\TOP.vhd=-1
+
