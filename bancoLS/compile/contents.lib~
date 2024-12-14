@@ -1,0 +1,27 @@
+412
+~E 1 "./src/mux_reg.vhd" 4 mux_reg
+~A 1 "./src/mux_reg.vhd" 13 behavior
+~E 1 "./src/memoria_de_datos.vhd" 6 memoria_de_datos
+~A 1 "./src/memoria_de_datos.vhd" 16 behavioral
+~E 1 "./src/Banco_de_Registros.vhd" 6 banco_de_registros
+~A 1 "./src/Banco_de_Registros.vhd" 19 behavioral
+~E 1 "./src/ALU.vhd" 5 alu
+~A 1 "./src/ALU.vhd" 14 behavior
+~E 1 "./src/decoder.vhd" 4 decoder
+~A 1 "./src/decoder.vhd" 17 behavior
+~E 1 "./src/MUX_EXTEND.vhd" 4 mux_extend
+~A 1 "./src/MUX_EXTEND.vhd" 13 behavior
+~E 1 "./src/memoria_de_programa.vhd" 5 memoria_del_programa
+~A 1 "./src/memoria_de_programa.vhd" 12 behavioral
+~E 1 "./src/mux_rd.vhd" 4 mux_rd
+~A 1 "./src/mux_rd.vhd" 13 behavior
+~E 1 "./src/suma4.vhd" 5 suma4
+~A 1 "./src/suma4.vhd" 14 behavioral
+~E 1 "./src/Sign_Extend.vhd" 4 sign_extend
+~A 1 "./src/Sign_Extend.vhd" 11 behavioral
+~E 1 "./compile/tipo_r.vhd" 25 tipo_r
+~A 1 "./compile/tipo_r.vhd" 33 tipo_r
+~E 1 "./compile/tipo_i.vhd" 25 tipo_i
+~A 1 "./compile/tipo_i.vhd" 33 tipo_i
+~E 1 "./src/unidad_de_control.vhd" 4 unidad_de_control
+~A 1 "./src/unidad_de_control.vhd" 18 behavior

@@ -1,0 +1,12 @@
+[Version]
+Version=6.2
+[Designs]
+bancols=.\bancoLS\bancoLS.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+bancols=1

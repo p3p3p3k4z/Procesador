@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\bancoregistrosv4\bancoLS\src\suma4.vhd" 
+MESSAGE "Compile Entity "suma4"" 
+MESSAGE "Entity `suma4' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "Behavioral" of Entity "suma4"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]" 

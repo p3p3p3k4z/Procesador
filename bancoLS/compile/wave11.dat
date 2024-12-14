@@ -1,0 +1,36 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 CLK
+$IN 5 1 RST
+I 2 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 29 2 5 NUM
+$SC 9-25/4
+I 3 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 158 3 32 "U3/dato"
+$SC 30-154/4
+$BUS IN 287 3 32 "U1/op1"
+$SC 159-283/4
+$BUS IN 416 3 32 5 0 "2"
+$SC 288-412/4
+$BUS OUT 545 3 32 "U1/alu_resultado"
+$SC 417-541/4
+I 4 "i#21#INTEGER range 0 to 38rict0 38 "
+$S +5 4 "U6/counter"
+$IN 1 0 CLK
+$IN 5 0 RST
+$BUS IN 550 2 5 NUM
+$SC 9-25/4
+I 5 "a#29#std_logic_vector(11 downto 0)1 ricd11 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 599 5 12 "U5/dato_imm"
+$SC 551-+44/4
+$BUS OUT 728 3 32 3 3 ""
+$SC 600-724/4
+$BUS IN +5 3 32 "U1/op1"
+$SC 159-283/4
+$BUS IN 730 3 32 5 0 "2"
+$SC 288-412/4
+$BUS OUT 731 3 32 "U1/alu_resultado"
+$SC 417-541/4
+$S +5 0 "U6/counter"
+$ENDWAVE
