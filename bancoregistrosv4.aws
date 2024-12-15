@@ -1,7 +1,7 @@
 [Version]
 Version=6.2
 [Designs]
-bancols=.\bancoLS\bancoLS.adf
+bancols2=.\bancoLS2\bancoLS2.adf
 [Browser]
 sort=order
 mode=none
@@ -9,4 +9,7 @@ mode=none
 order=1
 macro=
 [Expand]
-bancols=1
+bancols=0
+bancols2=1
+[Settings]
+Active=bancols2

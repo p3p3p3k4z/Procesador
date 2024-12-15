@@ -13,3 +13,5 @@ c:\My_Designs\bancoregistrosv4\bancoLS/src/decoder.vhd=S
 c:\My_Designs\bancoregistrosv4\bancoLS/src/Banco_de_Registros.vhd=S
 c:\My_Designs\bancoregistrosv4\bancoLS/src/ALU.vhd=S
 c:\My_Designs\bancoregistrosv4\bancoLS/compile/tipo_i.vhd=S
+[DRC Time]
+c:\My_Designs\bancoregistrosv4\bancoLS\src\tipo_i.bde=D

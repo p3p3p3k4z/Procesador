@@ -1,26 +1,2 @@
-elbread.dll ver. 1.0.5.325 Sat Dec 14 00:47:31 2024
+elbread.dll ver. 1.0.5.325 Sat Dec 14 12:54:18 2024
 
-
-----------------------------------------------
-Entity                | Architecture | Library
-----------------------------------------------
-tipo_i                | tipo_i       | bancoLS
-alu                   | behavior     | bancols
-banco_de_registros    | behavioral   | bancols
-decoder               | behavior     | bancols
-memoria_del_programa  | behavioral   | bancols
-sign_extend           | behavioral   | bancols
-suma4                 | behavioral   | bancols
-unidad_de_control     | behavior     | bancols
-mux_extend            | behavior     | bancols
-----------------------------------------------
-
------------------------------
-Package             | Library
------------------------------
-standard            | std
-std_logic_1164      | ieee
-numeric_std         | ieee
-std_logic_arith     | ieee
-std_logic_unsigned  | ieee
------------------------------

@@ -21,9 +21,13 @@ FLOWTOOLS=ONLY_IMPL
 UCF=
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=tipo_i|tipo_i|0 
+HierarchyInformation=tipo_i|tipo_i|0
 ShowHide=ShowTopLevel
 Selected=
+[file_out:/tipo_r.bde]
+/\compile\tipo_r.vhd=-1
+[file_out:/tipo_i.bde]
+/\compile\tipo_i.vhd=-1
 [Files]
 /ALU.vhd=-1
 /unidad_de_control.vhd=-1
@@ -56,7 +60,7 @@ Selected=
 .\src\R_simu.awf=Waveform File
 .\src\tipo_i.bde=Block Diagram
 .\src\i_simu.awf=Waveform File
-[file_out:/tipo_r.bde]
-/\compile\tipo_r.vhd=-1
-[file_out:/tipo_i.bde]
-/\compile\tipo_i.vhd=-1
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\bancoregistrosv4\bancoLS\
+Extension3=mak
