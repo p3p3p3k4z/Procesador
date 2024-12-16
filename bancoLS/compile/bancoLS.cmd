@@ -1,1 +1,0 @@
--w -s "c:\My_Designs\bancoregistrosv4\library.cfg"  -j "c:\My_Designs\bancoregistrosv4\bancoLS\projlib.cfg"  -d "c:\My_Designs\bancoregistrosv4\bancoLS\compile\"  -work bancoLS -dbg -e 100 "c:\My_Designs\bancoregistrosv4\bancoLS\src\mux_rd.vhd" 

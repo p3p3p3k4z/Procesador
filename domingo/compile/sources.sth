@@ -1,0 +1,18 @@
+[Files List]
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\STD/src/standard.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/stdlogic.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/numstd.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/arith.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.2\VLIB\IEEE/src/unsigned.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/MUX_EXTEND.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/ALU.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/mux_reg.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/mux_rd.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/unidad_de_control.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/Banco_de_Registros.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/decoder.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/memoria_de_programa.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/memoria_de_datos.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/Sign_Extend.vhd=S
+c:\My_Designs\bancols_v1\domingo/src/suma4.vhd=S
+c:\My_Designs\bancols_v1\domingo/compile/LS.vhd=S

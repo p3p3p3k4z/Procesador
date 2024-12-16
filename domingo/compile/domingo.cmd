@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\bancols_v1\library.cfg"  -j "c:\My_Designs\bancols_v1\domingo\projlib.cfg"  -d "c:\My_Designs\bancols_v1\domingo\compile\"  -work domingo -dbg -e 100 "c:\My_Designs\bancols_v1\domingo\src\unidad_de_control.vhd" 

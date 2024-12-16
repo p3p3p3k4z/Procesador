@@ -1,1 +1,0 @@
--w -s "c:\My_Designs\bancoregistrosv4\library.cfg"  -j "c:\My_Designs\bancoregistrosv4\bancoLS2\projlib.cfg"  -d "c:\My_Designs\bancoregistrosv4\bancoLS2\compile\"  -work bancoLS2 -dbg -e 100 "c:\My_Designs\bancoregistrosv4\bancoLS2\compile\ls.vhd" 

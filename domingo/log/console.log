@@ -1,0 +1,906 @@
+run @1.6us
+# : FAILURE: ARG is too large in CONV_INTEGER
+# : Time: 1500 ns,  Iteration: 1,  Instance: /U11.
+# KERNEL: stopped at delta: 1 at time 1500 ns.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1574 kB (elbread=1071 elab2=426 kernel=77 sdf=0)
+# 12:14 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+asim -advdataflow  -retry 3  ls ls
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1573 kB (elbread=1071 elab2=425 kernel=77 sdf=0)
+# 12:14 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @700ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @900ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1us
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.1us
+# KERNEL: stopped at time: 1100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.3us
+# KERNEL: stopped at time: 1300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.4us
+# KERNEL: stopped at time: 1400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.5us
+# KERNEL: stopped at time: 1500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.7us
+# KERNEL: stopped at time: 1700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.9us
+# KERNEL: stopped at time: 1900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1573 kB (elbread=1071 elab2=425 kernel=77 sdf=0)
+# 12:28 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+# Error: COMP96_0367: memoria_de_datos.vhd : (52, 41): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (54, 41): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (56, 41): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (58, 41): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (60, 41): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (62, 41): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (72, 36): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (74, 36): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (76, 36): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (78, 36): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (80, 36): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (82, 36): Improper array length. Actual length is 8. Expected length is 32.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+# Error: COMP96_0367: memoria_de_datos.vhd : (52, 37): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (54, 37): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (56, 37): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (58, 37): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (60, 37): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (62, 37): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (72, 32): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (74, 32): Improper array length. Actual length is 16. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (76, 32): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (78, 32): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (80, 32): Improper array length. Actual length is 8. Expected length is 32.
+# Error: COMP96_0367: memoria_de_datos.vhd : (82, 32): Improper array length. Actual length is 8. Expected length is 32.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  0.0 [s]
+asim -advdataflow  -retry 3  ls ls
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1574 kB (elbread=1071 elab2=426 kernel=77 sdf=0)
+# 12:34 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# RUNTIME: Fatal Error: RUNTIME_0046 memoria_de_datos.vhd (60): Incompatible ranges; left: (31 downto 0), right: (0 to 33).
+# KERNEL: Time: 300 ns,  Iteration: 6,  Instance: /U11.
+# KERNEL: stopped at delta: 6 at time 300 ns.
+# Fatal error occurred during simulation.
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1574 kB (elbread=1071 elab2=426 kernel=77 sdf=0)
+# 12:35 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# RUNTIME: Fatal Error: RUNTIME_0046 memoria_de_datos.vhd (60): Incompatible ranges; left: (31 downto 0), right: (0 to 33).
+# KERNEL: Time: 300 ns,  Iteration: 6,  Instance: /U11.
+# KERNEL: stopped at delta: 6 at time 300 ns.
+# Fatal error occurred during simulation.
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1574 kB (elbread=1071 elab2=426 kernel=77 sdf=0)
+# 12:37 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# : FAILURE: ARG is too large in CONV_INTEGER
+# : Time: 300 ns,  Iteration: 6,  Instance: /U11.
+# KERNEL: stopped at delta: 6 at time 300 ns.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1574 kB (elbread=1071 elab2=426 kernel=77 sdf=0)
+# 12:40 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+asim -advdataflow  -retry 3  ls ls
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1572 kB (elbread=1071 elab2=424 kernel=77 sdf=0)
+# 12:40 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/alu.vhd $DSN/src/banco_de_registros.vhd $DSN/src/decoder.vhd $DSN/src/mux_reg.vhd $DSN/src/sign_extend.vhd $DSN/src/suma4.vhd $DSN/src/memoria_de_datos.vhd $DSN/src/memoria_de_programa.vhd $DSN/src/mux_extend.vhd $DSN/src/mux_rd.vhd $DSN/src/unidad_de_control.vhd $DSN/src/ls.bde
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1us
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.4us
+# KERNEL: stopped at time: 1400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1572 kB (elbread=1071 elab2=424 kernel=77 sdf=0)
+# 12:41 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_datos.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\memoria_de_datos.vhd
+# Compile Entity "Memoria_de_Datos"
+# Entity `Memoria_de_Datos' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "Memoria_de_Datos"
+asim -advdataflow  -retry 3  ls ls
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1572 kB (elbread=1071 elab2=424 kernel=77 sdf=0)
+# 12:42 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1us
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.4us
+# KERNEL: stopped at time: 1400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2us
+# KERNEL: stopped at time: 2 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.2us
+# KERNEL: stopped at time: 2200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.4us
+# KERNEL: stopped at time: 2400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.6us
+# KERNEL: stopped at time: 2600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.8us
+# KERNEL: stopped at time: 2800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3us
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.4us
+# KERNEL: stopped at time: 3400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.6us
+# KERNEL: stopped at time: 3600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1572 kB (elbread=1071 elab2=424 kernel=77 sdf=0)
+# 12:53 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/ALU.vhd $DSN/src/mux_reg.vhd $DSN/src/unidad_de_control.vhd $DSN/src/Banco_de_Registros.vhd $DSN/src/decoder.vhd $DSN/src/memoria_de_programa.vhd $DSN/src/memoria_de_datos.vhd $DSN/src/Sign_Extend.vhd $DSN/src/suma4.vhd $DSN/src/LS.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\bancols_v1\domingo\src\LS.bde'.
+# DRC: Warning: LS.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\bancols_v1\domingo\compile\LS.vhd from c:\My_Designs\bancols_v1\domingo\src\LS.bde ...
+# Generation successful
+# File: c:\My_Designs\bancols_v1\domingo\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+asim -advdataflow  -retry 3  ls ls
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1572 kB (elbread=1071 elab2=424 kernel=77 sdf=0)
+# 12:53 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1us
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.4us
+# KERNEL: stopped at time: 1400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2us
+# KERNEL: stopped at time: 2 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.2us
+# KERNEL: stopped at time: 2200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -reorder $DSN/src/alu.vhd $DSN/src/banco_de_registros.vhd $DSN/src/decoder.vhd $DSN/src/mux_reg.vhd $DSN/src/sign_extend.vhd $DSN/src/suma4.vhd $DSN/src/memoria_de_datos.vhd $DSN/src/memoria_de_programa.vhd $DSN/src/mux_extend.vhd $DSN/src/mux_rd.vhd $DSN/src/unidad_de_control.vhd $DSN/src/ls.bde
+# Compile with File Reorder...
+# File: c:\My_Designs\bancols_v1\domingo\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+run @2.4us
+# KERNEL: stopped at time: 2400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.6us
+# KERNEL: stopped at time: 2600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.8us
+# KERNEL: stopped at time: 2800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3us
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.4us
+# KERNEL: stopped at time: 3400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.6us
+# KERNEL: stopped at time: 3600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.8us
+# KERNEL: stopped at time: 3800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @4.2us
+# KERNEL: stopped at time: 4200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @4.4us
+# KERNEL: stopped at time: 4400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1572 kB (elbread=1071 elab2=424 kernel=77 sdf=0)
+# 12:58 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+# Simulation has been stopped
+acom $DSN/src/unidad_de_control.vhd
+# Compile...
+# File: c:\My_Designs\bancols_v1\domingo\src\unidad_de_control.vhd
+# Compile Entity "unidad_de_control"
+# Entity `unidad_de_control' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "unidad_de_control"
+asim -advdataflow  -retry 3  ls ls
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1573 kB (elbread=1071 elab2=425 kernel=77 sdf=0)
+# 12:58 a.m., lunes, 16 de diciembre de 2024
+# Simulation has been initialized
+# Selected Top-Level: ls (ls)
+run @200ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U2.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1us
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.4us
+# KERNEL: stopped at time: 1400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.8us
+# KERNEL: stopped at time: 1800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2us
+# KERNEL: stopped at time: 2 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.2us
+# KERNEL: stopped at time: 2200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.4us
+# KERNEL: stopped at time: 2400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.6us
+# KERNEL: stopped at time: 2600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @2.8us
+# KERNEL: stopped at time: 2800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3us
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.2us
+# KERNEL: stopped at time: 3200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.4us
+# KERNEL: stopped at time: 3400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.6us
+# KERNEL: stopped at time: 3600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @3.8us
+# KERNEL: stopped at time: 3800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @4us
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Simulation has been stopped

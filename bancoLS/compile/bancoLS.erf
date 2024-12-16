@@ -1,5 +1,0 @@
-MESSAGE "File: c:\My_Designs\bancoregistrosv4\bancoLS\src\mux_rd.vhd" 
-MESSAGE "Compile Entity "mux_rd"" 
-MESSAGE "Entity `mux_rd' has been skipped - no difference detected." 
-MESSAGE "Compile Architecture "behavior" of Entity "mux_rd"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]" 

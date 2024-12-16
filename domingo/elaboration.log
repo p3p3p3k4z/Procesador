@@ -1,0 +1,29 @@
+elbread.dll ver. 1.0.5.325 Mon Dec 16 00:58:56 2024
+
+
+----------------------------------------------
+Entity                | Architecture | Library
+----------------------------------------------
+ls                    | ls           | domingo
+suma4                 | behavioral   | domingo
+sign_extend           | behavioral   | domingo
+memoria_de_datos      | behavioral   | domingo
+memoria_del_programa  | behavioral   | domingo
+decoder               | behavior     | domingo
+banco_de_registros    | behavioral   | domingo
+unidad_de_control     | behavior     | domingo
+mux_rd                | behavior     | domingo
+mux_reg               | behavior     | domingo
+alu                   | behavior     | domingo
+mux_extend            | behavior     | domingo
+----------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+numeric_std         | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------
