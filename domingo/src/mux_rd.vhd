@@ -16,9 +16,9 @@ begin
     process(imm_rd, rs2, rd, fun7)
     begin
         if imm_rd = '1' then
-            salida_rd <= fun7 & rs2;  
+            salida_rd <= fun7 & rd; 
         else
-            salida_rd <= fun7 & rd;
+			salida_rd <= fun7 & rs2;
         end if;
     end process;
 end behavior;

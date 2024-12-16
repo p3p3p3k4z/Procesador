@@ -3,13 +3,17 @@ Current Flow=Multivendor
 VCS=0
 version=1
 Current Config=compile
+
 [Configurations]
 compile=domingo
+
 [Library]
 domingo=.\domingo.lib
+
 [$LibMap$]
 domingo=.
 Active_lib=
+
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
@@ -17,8 +21,16 @@ SYNTH_TOOL=<none>
 IMPL_TOOL=<none>
 FAMILY=
 FLOWTOOLS=ONLY_IMPL
+
 [IMPLEMENTATION]
 UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=ls|ls|0  
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /ALU.vhd=-1
 /Banco_de_Registros.vhd=-1
@@ -33,6 +45,8 @@ UCF=
 /unidad_de_control.vhd=-1
 /LS.bde=-1
 /instru_ls.awf=-1
+/revisar.awf=-1
+
 [Files.Data]
 .\src\ALU.vhd=VHDL Source Code
 .\src\Banco_de_Registros.vhd=VHDL Source Code
@@ -47,10 +61,8 @@ UCF=
 .\src\unidad_de_control.vhd=VHDL Source Code
 .\src\LS.bde=Block Diagram
 .\src\instru_ls.awf=Waveform File
+.\src\revisar.awf=Waveform File
+
 [file_out:/LS.bde]
 /\compile\LS.vhd=-1
-[HierarchyViewer]
-SortInfo=u
-HierarchyInformation=alu|behavior|0 ls|ls|0
-ShowHide=ShowTopLevel
-Selected=
+

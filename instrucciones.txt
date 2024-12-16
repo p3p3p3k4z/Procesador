@@ -89,8 +89,8 @@ CONCATENADO
 00000000001000011010010100100011
 
 indicaciones
-escribo de 8 a 15
-escribo de 15 a 31
+escribo de 8 a 15 3 parte
+escribo de 15 a 31 mitad superior
 escribo todo	 
 
 

@@ -73,7 +73,7 @@ begin
 	--Escribir en memoria de datos
 	wem <= '1' when (opcode = "0100011") else '0';	 -- instruccion s 
 	--seleccionar si usar rd o rs2
-	imm_rd <= '1' when (opcode = "0100011" or opcode = "0000011") else '0';	 -- instruccion s
+	imm_rd <= '1' when (opcode = "0100011") else '0';	 -- instruccion s
 	--escribir en banco o memoria
 	alu2reg <= '1' when (opcode = "0000011" or opcode = "0100011") else '0';	 -- instruccion ls 
 	
