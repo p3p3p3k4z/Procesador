@@ -27,7 +27,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=ls|ls|0  
+HierarchyInformation=ls|ls|0     
 ShowHide=ShowTopLevel
 Selected=
 
@@ -46,6 +46,7 @@ Selected=
 /LS.bde=-1
 /instru_ls.awf=-1
 /revisar.awf=-1
+/revision2.awf=-1
 
 [Files.Data]
 .\src\ALU.vhd=VHDL Source Code
@@ -62,6 +63,7 @@ Selected=
 .\src\LS.bde=Block Diagram
 .\src\instru_ls.awf=Waveform File
 .\src\revisar.awf=Waveform File
+.\src\revision2.awf=Waveform File
 
 [file_out:/LS.bde]
 /\compile\LS.vhd=-1

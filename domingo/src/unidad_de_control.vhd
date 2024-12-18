@@ -66,7 +66,7 @@ begin
 			  else "1111";
 			
     -- Escribir	en el banco
-    wer <= '1' when (opcode = "0110011" or opcode = "0010011" or opcode = "0100011") else '0'; -- Para instrucciones tipo R o tipo I
+    wer <= '1' when (opcode = "0110011" or opcode = "0000011") else '0'; -- Para instrucciones R S L
     -- bandera para extensor de signo
     alu_src <= '1' when (opcode = "0010011" or opcode = "0000011" or opcode = "0100011") else '0';
 		
@@ -74,7 +74,7 @@ begin
 	wem <= '1' when (opcode = "0100011") else '0';	 -- instruccion s 
 	--seleccionar si usar rd o rs2
 	imm_rd <= '1' when (opcode = "0100011") else '0';	 -- instruccion s
-	--escribir en banco o memoria
-	alu2reg <= '1' when (opcode = "0000011" or opcode = "0100011") else '0';	 -- instruccion ls 
+	-- selector para escribir en banco 
+	alu2reg <= '1' when (opcode = "0000011") else '0';	 -- instruccion l
 	
 end behavior;

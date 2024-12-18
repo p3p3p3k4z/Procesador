@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : c:\My_Designs\bancols_v1\domingo\compile\LS.vhd
--- Generated   : Mon Dec 16 00:53:29 2024
--- From        : c:\My_Designs\bancols_v1\domingo\src\LS.bde
+-- File        : c:\Users\Mario\Documents\arquitectura_computadoras\bancols_v1\domingo\compile\LS.vhd
+-- Generated   : Tue Dec 17 11:16:54 2024
+-- From        : c:\Users\Mario\Documents\arquitectura_computadoras\bancols_v1\domingo\src\LS.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------
