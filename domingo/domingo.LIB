@@ -1,130 +1,130 @@
 [alu]
-A/behavior=21|./src/ALU.vhd|14|1*677790
-B/behavior=3*188166
-H/behavior=0*590267
+A/behavior=21|./src/ALU.vhd|14|1*948230
+B/behavior=3*243501
+H/behavior=0*767796
 R=./src/ALU.vhd|5
 S/alu=S/ALU 40|0|2*16227
 V=0*2911
 
 [banco_de_registros]
-A/behavioral=A/Behavioral 21|./src/Banco_de_Registros.vhd|19|1*875294
-B/behavioral=3*235512
-H/behavioral=0*724820
+A/behavioral=A/Behavioral 21|./src/Banco_de_Registros.vhd|19|1*1040551
+B/behavioral=3*275718
+H/behavioral=0*842360
 R=./src/Banco_de_Registros.vhd|6
 S/banco_de_registros=S/Banco_de_Registros 40|0|2*5580
 V=0*11717
 
 [decoder]
-A/behavior=21|./src/decoder.vhd|16|1*692101
-B/behavior=3*195512
-H/behavior=0*596646
+A/behavior=21|./src/decoder.vhd|16|1*962541
+B/behavior=3*250847
+H/behavior=0*774175
 R=./src/decoder.vhd|4
 S/decoder=40|0|2*2775
 V=0*17287
 
 [ls]
-A/ls=A/LS 24|.\src\LS.bde|10000|1*736178
-H/ls=0*618429
+A/ls=A/LS 24|.\src\LS.bde|10000|1*1006572
+H/ls=0*795908
 R=./compile/LS.vhd|25
 V=0*113340
 
 [memoria_de_datos]
-A/behavioral=A/Behavioral 21|./src/memoria_de_datos.vhd|17|1*932675
-B/behavioral=3*237735
-H/behavioral=0*759415
+A/behavioral=A/Behavioral 21|./src/memoria_de_datos.vhd|17|1*972006
+B/behavioral=3*255993
+H/behavioral=0*776603
 R=./src/memoria_de_datos.vhd|6
 S/memoria_de_datos=S/Memoria_de_Datos 40|0|2*20796
 V=0*38217
 
 [memoria_del_programa]
-A/behavioral=A/Behavioral 21|./src/memoria_de_programa.vhd|12|1*906595
-B/behavioral=3*237234
-H/behavioral=0*743884
+A/behavioral=A/Behavioral 21|./src/memoria_de_programa.vhd|12|1*1075382
+B/behavioral=3*279627
+H/behavioral=0*862380
 R=./src/memoria_de_programa.vhd|5
 S/memoria_del_programa=40|0|2*1699
 V=0*48658
 
 [mux_extend]
-A/behavior=21|./src/MUX_EXTEND.vhd|13|1*727646
-B/behavior=3*206925
-H/behavior=0*614605
+A/behavior=21|./src/MUX_EXTEND.vhd|13|1*998084
+B/behavior=3*262260
+H/behavior=0*792134
 R=./src/MUX_EXTEND.vhd|4
 S/mux_extend=S/MUX_EXTEND 40|0|2*17983
 V=0*51332
 
 [mux_rd]
-A/behavior=21|./src/mux_rd.vhd|14|1*729246
-B/behavior=3*207628
-H/behavior=0*615013
+A/behavior=21|./src/mux_rd.vhd|14|1*999684
+B/behavior=3*262963
+H/behavior=0*792542
 R=./src/mux_rd.vhd|4
 S/mux_rd=40|0|2*12403
 V=0*54714
 
 [mux_reg]
-A/behavior=21|./src/mux_reg.vhd|13|1*696052
-B/behavior=3*197208
-H/behavior=0*597123
+A/behavior=21|./src/mux_reg.vhd|13|1*966492
+B/behavior=3*252543
+H/behavior=0*774652
 R=./src/mux_reg.vhd|4
 S/mux_reg=40|0|2*14473
 V=0*22446
 
 [sign_extend]
-A/behavioral=A/Behavioral 21|./src/Sign_Extend.vhd|11|1*697667
-B/behavioral=3*197911
-H/behavioral=0*597558
+A/behavioral=A/Behavioral 21|./src/Sign_Extend.vhd|11|1*1073617
+B/behavioral=3*278790
+H/behavioral=0*861902
 R=./src/Sign_Extend.vhd|4
 S/sign_extend=S/Sign_Extend 40|0|2*19719
 V=0*25483
 
 [suma4]
-A/behavioral=A/Behavioral 21|./src/suma4.vhd|14|1*699432
-B/behavioral=3*198748
-H/behavioral=0*598036
+A/behavioral=A/Behavioral 21|./src/suma4.vhd|14|1*969872
+B/behavioral=3*254083
+H/behavioral=0*775565
 R=./src/suma4.vhd|5
 S/suma4=40|0|2*0
 V=0*28610
 
 [unidad_de_control]
-A/behavior=21|./src/unidad_de_control.vhd|19|1*771456
-B/behavior=3*208704
-H/behavior=0*665743
+A/behavior=21|./src/unidad_de_control.vhd|19|1*1001484
+B/behavior=3*264039
+H/behavior=0*792952
 R=./src/unidad_de_control.vhd|4
 S/unidad_de_control=40|0|2*8653
 V=0*58806
 
 [~A]
 ./compile/LS.vhd~LS=60|0*74237*74462
-./compile/LS.vhd~LSLS=60|0*651103*656714
+./compile/LS.vhd~LSLS=60|0*828582*834193
 ./src/ALU.vhd~ALU=60|0*0*347
-./src/ALU.vhd~behaviorALU=60|0*590358*591817
+./src/ALU.vhd~behaviorALU=60|0*767887*769346
 ./src/Banco_de_Registros.vhd~Banco_de_Registros=60|0*4942*5502
-./src/Banco_de_Registros.vhd~BehavioralBanco_de_Registros=60|0*728289*729487
+./src/Banco_de_Registros.vhd~BehavioralBanco_de_Registros=60|0*845829*847027
 ./src/MUX_EXTEND.vhd~MUX_EXTEND=60|0*49741*50064
-./src/MUX_EXTEND.vhd~behaviorMUX_EXTEND=60|0*614696*614934
-./src/Sign_Extend.vhd~BehavioralSign_Extend=60|0*597653*597953
+./src/MUX_EXTEND.vhd~behaviorMUX_EXTEND=60|0*792225*792463
+./src/Sign_Extend.vhd~BehavioralSign_Extend=60|0*861997*862297
 ./src/Sign_Extend.vhd~Sign_Extend=60|0*24085*24342
-./src/decoder.vhd~behaviordecoder=60|0*596737*597050
+./src/decoder.vhd~behaviordecoder=60|0*774266*774579
 ./src/decoder.vhd~decoder=60|0*14945*15405
-./src/memoria_de_datos.vhd~BehavioralMemoria_de_Datos=60|0*764280*767703
+./src/memoria_de_datos.vhd~BehavioralMemoria_de_Datos=60|0*781468*784891
 ./src/memoria_de_datos.vhd~Memoria_de_Datos=60|0*29842*30313
-./src/memoria_de_programa.vhd~Behavioralmemoria_del_programa=60|0*748761*750934
+./src/memoria_de_programa.vhd~Behavioralmemoria_del_programa=60|0*867261*869442
 ./src/memoria_de_programa.vhd~memoria_del_programa=60|0*40457*40776
-./src/mux_rd.vhd~behaviormux_rd=60|0*615104*615352
+./src/mux_rd.vhd~behaviormux_rd=60|0*792633*792881
 ./src/mux_rd.vhd~mux_rd=60|0*52977*53327
-./src/mux_reg.vhd~behaviormux_reg=60|0*597214*597485
+./src/mux_reg.vhd~behaviormux_reg=60|0*774743*775014
 ./src/mux_reg.vhd~mux_reg=60|0*20798*21130
-./src/suma4.vhd~Behavioralsuma4=60|0*598518*599003
+./src/suma4.vhd~Behavioralsuma4=60|0*776047*776532
 ./src/suma4.vhd~suma4=60|0*26551*26856
-./src/unidad_de_control.vhd~behaviorunidad_de_control=60|0*665835*668606
+./src/unidad_de_control.vhd~behaviorunidad_de_control=60|0*793044*795815
 ./src/unidad_de_control.vhd~unidad_de_control=60|0*56839*57386
-ModifyID=660
+ModifyID=785
 Version=73
 
 [~MFT]
-0=653|0domingo.mgf|767703|661575
-1=190|1domingo.mgf|932675|730191
+0=779|0domingo.mgf|869442|763309
+1=231|1domingo.mgf|1075382|847940
 2=10|2domingo.mgf|20796|0
-3=182|3domingo.mgf|237735|212634
+3=222|3domingo.mgf|279627|249261
 
 [~U]
 alu=ALU 11|0*2019|0*2246|3

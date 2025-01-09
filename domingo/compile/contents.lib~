@@ -1,4 +1,4 @@
-660
+785
 ~E 1 "./src/mux_rd.vhd" 4 mux_rd
 ~A 1 "./src/mux_rd.vhd" 14 behavior
 ~E 1 "./compile/LS.vhd" 25 ls
