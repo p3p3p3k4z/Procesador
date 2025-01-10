@@ -1,5 +1,6 @@
 # Procesador
-Este es un proyecto para la materia de "Arquitectura de Computadoras", este es un procesador de un ciclo
+Este es un proyecto para la materia de "Arquitectura de Computadoras", este es un procesador de un ciclo.
+Este programa debe ser ejecutado en ACTIVE-HDL
 
 ### INTRUCCIONES DISPONIBLES
 - R
