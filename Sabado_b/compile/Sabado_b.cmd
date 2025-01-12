@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\instr_b\library.cfg"  -j "c:\My_Designs\instr_b\Sabado_b\projlib.cfg"  -d "c:\My_Designs\instr_b\Sabado_b\compile\"  -work Sabado_b -dbg -e 100 "c:\My_Designs\instr_b\Sabado_b\src\unidad_de_control.vhd" 

@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\instr_b\Sabado_b\src\unidad_de_control.vhd" 
+MESSAGE "Compile Entity "unidad_de_control"" 
+MESSAGE "Entity `unidad_de_control' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "behavior" of Entity "unidad_de_control"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]" 
