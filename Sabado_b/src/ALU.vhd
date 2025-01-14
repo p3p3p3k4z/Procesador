@@ -55,18 +55,6 @@ begin
                 result := STD_LOGIC_VECTOR(SHIFT_RIGHT(unsigned_op1, TO_INTEGER(unsigned_op2(4 downto 0))));
             when "1001" => -- Shift right arithmetic
 			result := STD_LOGIC_VECTOR(SHIFT_RIGHT(signed_op1, TO_INTEGER(unsigned_op2(4 downto 0))));
-			when "1010" => -- Set if less than (signed)
-                if signed_op1 <= signed_op2 then
-                    result := (others => '0'); result(0) := '1';
-                else
-                    result := (others => '0');
-                end if;
-            when "1011" => -- Set if less than (unsigned)
-                if unsigned_op1 <= unsigned_op2 then
-                    result := (others => '0'); result(0) := '1';
-                else
-                    result := (others => '0');
-                end if;
 			
             when others => -- Default case
                 result := (others => '0');

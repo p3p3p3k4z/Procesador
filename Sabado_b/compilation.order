@@ -12,3 +12,4 @@
 .\src\LS.bde
 .\src\ordenar_extSigno.vhd
 .\src\mux_sumaB.vhd
+.\src\mux_b_neg.vhd

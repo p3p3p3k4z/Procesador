@@ -1,81 +1,60 @@
-# Design: Design Sabado_b already active.
-acom -reorder $DSN/src/alu.vhd $DSN/src/banco_de_registros.vhd $DSN/src/decoder.vhd $DSN/src/ls.bde $DSN/src/memoria_de_datos.vhd $DSN/src/memoria_de_programa.vhd $DSN/src/mux_extend.vhd $DSN/src/mux_rd.vhd $DSN/src/mux_reg.vhd $DSN/src/sign_extend.vhd $DSN/src/suma4.vhd $DSN/src/unidad_de_control.vhd
-# Compile with File Reorder...
-# DRC: Checking file 'c:\My_Designs\instr_b\Sabado_b\src\LS.bde'.
-# DRC: Warning: LS.bde - 0 error(s), 15 warning(s)
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-# Generating c:\My_Designs\instr_b\Sabado_b\compile\LS.vhd from c:\My_Designs\instr_b\Sabado_b\src\LS.bde ...
-# Generation successful
-# File: c:\My_Designs\instr_b\Sabado_b\src\ALU.vhd
+acom $DSN/src/mux_b_neg.vhd
+# Compile...
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\mux_b_neg.vhd
+# Compile Entity "mux_b_neg"
+# Compile Architecture "behavior" of Entity "mux_b_neg"
+# Error: COMP96_0143: mux_b_neg.vhd : (19, 13): Object "salto" may not be written
+# Error: COMP96_0143: mux_b_neg.vhd : (21, 13): Object "salto" may not be written
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/mux_b_neg.vhd
+# Compile...
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\mux_b_neg.vhd
+# Compile Entity "mux_b_neg"
+# Compile Architecture "behavior" of Entity "mux_b_neg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom $DSN/src/mux_sumaB.vhd
+# Compile...
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\mux_sumaB.vhd
+# Compile Entity "mux_suma"
+# Compile Architecture "behavior" of Entity "mux_suma"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/unidad_de_control.vhd
+# Compile...
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\unidad_de_control.vhd
+# Compile Entity "unidad_de_control"
+# Error: COMP96_0015: unidad_de_control.vhd : (16, 3): ';' expected.
+# Error: COMP96_0018: unidad_de_control.vhd : (18, 5): Identifier expected.
+# Compile Architecture "behavior" of Entity "unidad_de_control"
+# Error: COMP96_0078: unidad_de_control.vhd : (89, 2): Unknown identifier "br_neg".
+# Error: COMP96_0133: unidad_de_control.vhd : (89, 2): Cannot find object declaration.
+# Error: COMP96_0078: unidad_de_control.vhd : (91, 2): Unknown identifier "branch".
+# Error: COMP96_0133: unidad_de_control.vhd : (91, 2): Cannot find object declaration.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/unidad_de_control.vhd
+# Compile...
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\unidad_de_control.vhd
+# Compile Entity "unidad_de_control"
+# Compile Architecture "behavior" of Entity "unidad_de_control"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/ALU.vhd
+# Compile...
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\ALU.vhd
 # Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
 # Compile Architecture "behavior" of Entity "ALU"
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# DRC: Checking file 'c:\My_Designs\instr_b\Sabado_b\src\LS.bde'.
-# DRC: Warning: LS.bde - 0 error(s), 4 warning(s)
-# DRC: The results have been written to the log file. Double click on this line to view the log.
-acom $DSN/src/ordenar_extSigno.vhd
+# Error: COMP96_0301: ALU.vhd : (28, 9): The choice OTHERS must be present when all alternatives are not covered.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom $DSN/src/ALU.vhd
 # Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\ordenar_extSigno.vhd
-# Compile Entity "ordenar_extSigno"
-# Compile Architecture "behavior" of Entity "ordenar_extSigno"
-acom $DSN/src/suma4.vhd
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom $DSN/src/ALU.vhd
 # Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\suma4.vhd
-# Compile Entity "suma4"
-# Entity `suma4' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "suma4"
-# Error: COMP96_0077: suma4.vhd : (16, 33): Assignment target incompatible with right side. Expected type "INTEGER".
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/suma4.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\suma4.vhd
-# Compile Entity "suma4"
-# Entity `suma4' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "suma4"
-acom $DSN/src/suma4.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\suma4.vhd
-# Compile Entity "suma4"
-# Entity `suma4' has been skipped - no difference detected.
-# Compile Architecture "Behavioral" of Entity "suma4"
-acom $DSN/src/suma4.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\suma4.vhd
-# Compile Entity "suma4"
-# Compile Architecture "Behavioral" of Entity "suma4"
-acom $DSN/src/memoria_de_programa.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\memoria_de_programa.vhd
-# Compile Entity "memoria_del_programa"
-# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
-acom $DSN/src/mux_sumaB.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\mux_sumaB.vhd
-# Compile Entity "mux_suma"
-# Compile Architecture "behavior" of Entity "mux_suma"
-# Error: COMP96_0078: mux_sumaB.vhd : (14, 29): Unknown identifier "salida_suma7".
-# Error: COMP96_0348: mux_sumaB.vhd : (14, 12): Name on sensitivity list must denote a signal.
-# Error: COMP96_0367: mux_sumaB.vhd : (19, 19): Improper array length. Actual length is 11. Expected length is 12.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/mux_sumaB.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\mux_sumaB.vhd
-# Compile Entity "mux_suma"
-# Entity `mux_suma' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "mux_suma"
-# Error: COMP96_0264: mux_sumaB.vhd : (14, 12): Signal "salida_suma" in the sensitivity list must denote a signal that can be read.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
-acom $DSN/src/mux_sumaB.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\mux_sumaB.vhd
-# Compile Entity "mux_suma"
-# Entity `mux_suma' has been skipped - no difference detected.
-# Compile Architecture "behavior" of Entity "mux_suma"
-acom $DSN/src/mux_sumaB.vhd
-# Compile...
-# File: c:\My_Designs\instr_b\Sabado_b\src\mux_sumaB.vhd
-# Compile Entity "mux_suma"
-# Error: COMP96_0016: mux_sumaB.vhd : (7, 9): Design unit declaration expected.
-# Compile Architecture "behavior" of Entity "mux_suma"
-# Error:
+# File: c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\ALU.vhd
+# Compile Entity "ALU"
+# Entity `ALU' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

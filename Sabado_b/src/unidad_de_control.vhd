@@ -12,7 +12,9 @@ entity unidad_de_control is
         alu_src 		 : out STD_LOGIC;  -- bandera de instrucciones tipo I
 		imm_rd			 : out STD_LOGIC; --bandera para imm o rs2
 		alu2reg          : out STD_LOGIC; -- se escribira en memoria o banco
-		palabra			 : out STD_LOGIC_VECTOR(3 downto 0)
+		palabra			 : out STD_LOGIC_VECTOR(3 downto 0); --auxiliar para tomar forma palabra
+		br_neg			 : out STD_LOGIC; --para saber que tipo b se manejara
+		branch			 : out STD_LOGIC -- determianr que signal es unaq instrucccion tipo b
     );
 end unidad_de_control;
 
@@ -56,11 +58,11 @@ begin
 			  "0000" when (funct3 = "101" and opcode = "0000011") else  --lhb
 			  
 			  "0010" when (funct3 = "000" and opcode = "1100011")else  --beq
-			  "0100" when (funct3 = "001" and opcode = "1100011")else  --bne
+			  "0010" when (funct3 = "001" and opcode = "1100011")else  --bne
 			  "0101" when (funct3 = "100" and opcode = "1100011")else  --btl
-			  "1010" when (funct3 = "101" and opcode = "1100011")else  --bge
+			  "0101" when (funct3 = "101" and opcode = "1100011")else  --bge
 			  "0110" when (funct3 = "110" and opcode = "1100011")else --bltu
-			  "1011" when (funct3 = "111" and opcode = "1100011")  --bgeu
+			  "0110" when (funct3 = "111" and opcode = "1100011")  --bgeu
 			  
 				
 			  else "1111";
@@ -83,5 +85,8 @@ begin
 	imm_rd <= '1' when (opcode = "0100011") else '0';	 -- instruccion s
 	-- selector para escribir en banco 
 	alu2reg <= '1' when (opcode = "0000011") else '0';	 -- instruccion l
-	
+	--operaciones inversas tipo b 
+	br_neg <= '1' when (funct3 = "001" or funct3 = "101" or funct3 = "111") else '0'; 	
+	--selector para las tipo b
+	branch <= '1' when (opcode = "1100011") else '0';
 end behavior;

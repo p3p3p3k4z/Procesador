@@ -3,13 +3,17 @@ Current Flow=Multivendor
 VCS=0
 version=1
 Current Config=compile
+
 [Configurations]
 compile=Sabado_b
+
 [Library]
 Sabado_b=.\Sabado_b.lib
+
 [$LibMap$]
 Sabado_b=.
 Active_lib=
+
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
@@ -17,8 +21,16 @@ SYNTH_TOOL=<none>
 IMPL_TOOL=<none>
 FAMILY=
 FLOWTOOLS=ONLY_IMPL
+
 [IMPLEMENTATION]
 UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=ls|ls|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /ALU.vhd=-1
 /decoder.vhd=-1
@@ -35,6 +47,8 @@ UCF=
 /LS.bde=-1
 /ordenar_extSigno.vhd=-1
 /mux_sumaB.vhd=-1
+/mux_b_neg.vhd=-1
+
 [Files.Data]
 .\src\ALU.vhd=VHDL Source Code
 .\src\decoder.vhd=VHDL Source Code
@@ -51,5 +65,8 @@ UCF=
 .\src\LS.bde=Block Diagram
 .\src\ordenar_extSigno.vhd=VHDL Source Code
 .\src\mux_sumaB.vhd=VHDL Source Code
+.\src\mux_b_neg.vhd=VHDL Source Code
+
 [file_out:/LS.bde]
 /\compile\LS.vhd=-1
+
