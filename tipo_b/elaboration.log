@@ -1,0 +1,32 @@
+elbread.dll ver. 1.0.5.325 Wed Jan 15 00:37:46 2025
+
+
+----------------------------------------------
+Entity                | Architecture | Library
+----------------------------------------------
+top_b                 | top_b        | tipo_b
+sign_extend           | behavioral   | tipo_b
+memoria_de_datos      | behavioral   | tipo_b
+mux_suma              | behavior     | tipo_b
+memoria_del_programa  | behavioral   | tipo_b
+mux_b_neg             | behavior     | tipo_b
+ordenar_extsigno      | behavior     | tipo_b
+suma4                 | behavioral   | tipo_b
+decoder               | behavior     | tipo_b
+banco_de_registros    | behavioral   | tipo_b
+unidad_de_control     | behavior     | tipo_b
+mux_rd                | behavior     | tipo_b
+mux_reg               | behavior     | tipo_b
+alu                   | behavior     | tipo_b
+mux_extend            | behavior     | tipo_b
+----------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+numeric_std         | ieee
+-----------------------------

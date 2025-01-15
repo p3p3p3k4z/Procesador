@@ -1,0 +1,87 @@
+SCHM0102
+HEADER
+{
+  FREEID 7
+  VARIABLES
+  {
+    #ARCHITECTURE="ordenar_extSigno"
+    #ENTITY="ordenar_extSigno"
+    #LANGUAGE="VHDL"
+    AUTHOR="mario"
+    COMPANY="UTM"
+    CREATIONDATE="1/14/2025"
+    TITLE="ordenar_extSigno"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    PAGESIZE (2200,1700)
+  }
+  BODY
+  {
+    INSTANCE 1,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusInput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="fun7(6:0)"
+        #SYMBOL="BusInput"
+      }
+      COORD (440,460)
+    }
+    TEXT 2,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,444,385,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 1
+    }
+    INSTANCE 3,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusInput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="rd(4:0)"
+        #SYMBOL="BusInput"
+      }
+      COORD (440,520)
+    }
+    TEXT 4,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (385,504,385,504)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      ALIGN 2
+      PARENT 3
+    }
+    INSTANCE 5,0,0
+    {
+      VARIABLES
+      {
+        #COMPONENT="BusOutput"
+        #DOWNTO="1"
+        #LIBRARY="#terminals"
+        #REFERENCE="salida_ordenada(11:0)"
+        #SYMBOL="BusOutput"
+      }
+      COORD (1780,460)
+    }
+    TEXT 6,0,0
+    {
+      TEXT "$#REFERENCE"
+      RECT (1835,444,1835,444)
+      MARGINS (1,1)
+      COLOR (0,0,192)
+      PARENT 5
+    }
+  }
+}

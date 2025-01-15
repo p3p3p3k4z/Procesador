@@ -1,0 +1,16 @@
+.\src\ALU.vhd
+.\src\Banco_de_Registros.vhd
+.\src\decoder.vhd
+.\src\memoria_de_datos.vhd
+.\src\memoria_de_programa.vhd
+.\src\mux_b_neg.vhd
+.\src\MUX_EXTEND.vhd
+.\src\mux_rd.vhd
+.\src\mux_reg.vhd
+.\src\mux_sumaB.vhd
+.\src\ordenar_extSigno.vhd
+.\src\Sign_Extend.vhd
+.\src\suma4.vhd
+.\src\unidad_de_control.vhd
+.\src\ordenar_extSigno.bde
+.\src\top_b.bde

@@ -1,1 +1,0 @@
--w -s "c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\library.cfg"  -j "c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\projlib.cfg"  -d "c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\compile\"  -work Sabado_b -dbg -e 100 "c:\Users\Mario\Documents\arquitectura_computadoras\banco_B\Sabado_b\src\ALU.vhd" 

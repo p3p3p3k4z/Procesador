@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\procesadorB\library.cfg"  -j "c:\My_Designs\procesadorB\tipo_b\projlib.cfg"  -d "c:\My_Designs\procesadorB\tipo_b\compile\"  -work tipo_b -dbg -e 100 "c:\My_Designs\procesadorB\tipo_b\compile\top_b.vhd" 

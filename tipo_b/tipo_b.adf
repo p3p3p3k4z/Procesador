@@ -1,0 +1,66 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+[Configurations]
+compile=tipo_b
+[Library]
+tipo_b=.\tipo_b.lib
+[$LibMap$]
+tipo_b=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+[IMPLEMENTATION]
+UCF=
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=top_b|top_b|0 
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+/ALU.vhd=-1
+/Banco_de_Registros.vhd=-1
+/decoder.vhd=-1
+/memoria_de_datos.vhd=-1
+/memoria_de_programa.vhd=-1
+/mux_b_neg.vhd=-1
+/MUX_EXTEND.vhd=-1
+/mux_rd.vhd=-1
+/mux_reg.vhd=-1
+/mux_sumaB.vhd=-1
+/ordenar_extSigno.vhd=-1
+/Sign_Extend.vhd=-1
+/suma4.vhd=-1
+/unidad_de_control.vhd=-1
+/ordenar_extSigno.bde=-1
+/top_b.bde=-1
+/claseB.awf=-1
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\Banco_de_Registros.vhd=VHDL Source Code
+.\src\decoder.vhd=VHDL Source Code
+.\src\memoria_de_datos.vhd=VHDL Source Code
+.\src\memoria_de_programa.vhd=VHDL Source Code
+.\src\mux_b_neg.vhd=VHDL Source Code
+.\src\MUX_EXTEND.vhd=VHDL Source Code
+.\src\mux_rd.vhd=VHDL Source Code
+.\src\mux_reg.vhd=VHDL Source Code
+.\src\mux_sumaB.vhd=VHDL Source Code
+.\src\ordenar_extSigno.vhd=VHDL Source Code
+.\src\Sign_Extend.vhd=VHDL Source Code
+.\src\suma4.vhd=VHDL Source Code
+.\src\unidad_de_control.vhd=VHDL Source Code
+.\src\ordenar_extSigno.bde=Block Diagram
+.\src\top_b.bde=Block Diagram
+.\src\claseB.awf=Waveform File
+[file_out:/ordenar_extSigno.bde]
+/\compile\ordenar_extSigno.vhd=-1
+[file_out:/top_b.bde]
+/\compile\top_b.vhd=-1

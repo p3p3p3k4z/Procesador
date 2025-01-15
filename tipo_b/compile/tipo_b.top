@@ -1,0 +1,14 @@
+mux_rd ENTITY
+ordenar_extSigno ENTITY
+suma4 ENTITY
+unidad_de_control ENTITY
+Sign_Extend ENTITY
+mux_suma ENTITY
+mux_reg ENTITY
+Memoria_de_Datos ENTITY
+mux_b_neg ENTITY
+MUX_EXTEND ENTITY
+memoria_del_programa ENTITY
+Banco_de_Registros ENTITY
+decoder ENTITY
+ALU ENTITY

@@ -1,0 +1,14 @@
+E MUX_EXTEND VHDL
+L IEEE;
+U ieee.std_logic_1164;
+P alu_src _in std_logic
+P ext _in std_logic_vector[31:0]
+P banco _in std_logic_vector[31:0]
+P salida _out std_logic_vector[31:0]
+X MUX_EXTEND
+P palabra _in std_logic_vector[3:0]
+X Memoria_de_Datos
+:0]
+P opcode _out std_logic_vector[6:0]
+X decoder
+_de_Registros

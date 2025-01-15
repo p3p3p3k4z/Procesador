@@ -1,0 +1,39 @@
+#VLB_VERSION 58
+#INFO
+MUX_EXTEND
+E 1736916856227
+10
+#ACCESS
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+alu_src 0 29 61 1 . 6
+~std_logic_vector{31~downto~0}~12 1 5 150 1 . 7
+~NATURAL~range~31~downto~0~12 2 5 371 1 . 7
+ext 3 29 566 1 . 7
+~std_logic_vector{31~downto~0}~122 4 5 639 1 . 8
+~NATURAL~range~31~downto~0~121 5 5 860 1 . 8
+banco 6 29 1055 1 . 8
+~std_logic_vector{31~downto~0}~124 7 5 1128 1 . 9
+~NATURAL~range~31~downto~0~123 8 5 1349 1 . 9
+salida 9 29 1544 1 . 9
+#SPECIFICATION 
+#END
+nto~0~123 9 5 1445 1 . 12
+do 10 29 1640 1 . 12
+~std_logic_vector{3~downto~0}~12 11 5 1714 1 . 13
+~NATURAL~range~3~downto~0~12 12 5 1936 1 . 13
+palabra 13 29 2131 1 . 13
+#SPECIFICATION 
+#END
+tor{4~downto~0}~124 15 5 2502 1 . 11
+~NATURAL~range~4~downto~0~123 16 5 2724 1 . 11
+rd 17 29 2919 1 . 11
+~std_logic_vector{6~downto~0}~12 18 5 2994 1 . 12
+~NATURAL~range~6~downto~0~12 19 5 3216 1 . 12
+opcode 20 29 3411 1 . 12
+#SPECIFICATION 
+#END
