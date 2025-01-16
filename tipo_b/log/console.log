@@ -1,3 +1,118 @@
+acom $DSN/src/mux_b_neg.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\mux_b_neg.vhd
+# Compile Entity "mux_b_neg"
+# Entity `mux_b_neg' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_b_neg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  8.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  -retry 3  top_b top_b
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom $DSN/src/memoria_de_programa.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd
+# Compile Entity "memoria_del_programa"
+# Entity `memoria_del_programa' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1593 kB (elbread=1071 elab2=443 kernel=79 sdf=0)
+# 07:29 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1593 kB (elbread=1071 elab2=443 kernel=79 sdf=0)
+# 07:30 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/mux_b_neg.vhd $DSN/src/top_b.bde
+# Compile...
+# DRC: Checking file 'C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\top_b.bde'.
+# DRC: Warning: top_b.bde - 0 error(s), 4 warning(s)
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\Mario\Downloads\Procesador-main\tipo_b\compile\top_b.vhd from C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\top_b.bde ...
+# Generation successful
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\mux_b_neg.vhd
+# Compile Entity "mux_b_neg"
+# Entity `mux_b_neg' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_b_neg"
+# File: .\top_b.vhd
+# Compile Entity "top_b"
+# Entity `top_b' has been skipped - no difference detected.
+# Compile Architecture "top_b" of Entity "top_b"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
 asim -advdataflow  -retry 3  top_b top_b
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -9,10 +124,134 @@ asim -advdataflow  -retry 3  top_b top_b
 # ELAB2: Elaboration final pass...
 # ELAB2: Create instances ...
 # ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 1593 kB (elbread=1071 elab2=443 kernel=79 sdf=0)
-# 12:35 a.m., miércoles, 15 de enero de 2025
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 07:31 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 07:31 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.5 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 07:32 p. m., miércoles, 15 de enero de 2025
 # Simulation has been initialized
 # Selected Top-Level: top_b (top_b)
 run @100ns
@@ -62,75 +301,25 @@ run @100ns
 # : Time: 0 ps,  Iteration: 0,  Instance: /U4.
 # KERNEL: stopped at time: 100 ns
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
-run
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-restart
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 1593 kB (elbread=1071 elab2=443 kernel=79 sdf=0)
-# 12:36 a.m., miércoles, 15 de enero de 2025
-# Simulation has been initialized
-# Selected Top-Level: top_b (top_b)
-run
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-run 100 ns
+run @200ns
 # KERNEL: stopped at time: 200 ns
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
 restart
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -142,8 +331,34 @@ restart
 # ELAB2: Create instances complete.
 # ELAB2: Elaboration final pass complete - time: 0.0 [s].
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 1593 kB (elbread=1071 elab2=443 kernel=79 sdf=0)
-# 12:37 a.m., miércoles, 15 de enero de 2025
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:04 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_programa.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd
+# Compile Entity "memoria_del_programa"
+# Entity `memoria_del_programa' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+asim -advdataflow  -retry 3  top_b top_b
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:04 p. m., miércoles, 15 de enero de 2025
 # Simulation has been initialized
 # Selected Top-Level: top_b (top_b)
 run 100 ns
@@ -204,5 +419,913 @@ run 100 ns
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 run 100 ns
 # KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:05 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:08 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:09 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:12 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_programa.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd
+# Compile Entity "memoria_del_programa"
+# Entity `memoria_del_programa' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  -retry 3  top_b top_b
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:12 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:13 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:16 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_programa.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd
+# Compile Entity "memoria_del_programa"
+# Entity `memoria_del_programa' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  -retry 3  top_b top_b
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:16 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:20 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_programa.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd
+# Compile Entity "memoria_del_programa"
+# Entity `memoria_del_programa' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  -retry 3  top_b top_b
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:20 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:24 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run @100ns
+# Simulation has been stopped
+acom $DSN/src/memoria_de_programa.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd
+# Compile Entity "memoria_del_programa"
+# Entity `memoria_del_programa' has been skipped - no difference detected.
+# Compile Architecture "Behavioral" of Entity "memoria_del_programa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  -retry 3  top_b top_b
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:24 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run @100ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom $DSN/src/mux_b_neg.vhd
+# Compile...
+# File: C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\mux_b_neg.vhd
+# Compile Entity "mux_b_neg"
+# Entity `mux_b_neg' has been skipped - no difference detected.
+# Compile Architecture "behavior" of Entity "mux_b_neg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:31 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1588 kB (elbread=1071 elab2=439 kernel=78 sdf=0)
+# 08:31 p. m., miércoles, 15 de enero de 2025
+# Simulation has been initialized
+# Selected Top-Level: top_b (top_b)
+run 100 ns
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U13.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# : WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# : Time: 0 ps,  Iteration: 0,  Instance: /U4.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1 us
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 # Simulation has been stopped

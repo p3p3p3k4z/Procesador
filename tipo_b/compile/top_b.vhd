@@ -7,9 +7,9 @@
 --
 ---------------------------------------------------------------------------------------------------
 --
--- File        : c:\My_Designs\procesadorB\tipo_b\compile\top_b.vhd
--- Generated   : Wed Jan 15 00:27:35 2025
--- From        : c:\My_Designs\procesadorB\tipo_b\src\top_b.bde
+-- File        : C:\Users\Mario\Downloads\Procesador-main\tipo_b\compile\top_b.vhd
+-- Generated   : Wed Jan 15 19:31:04 2025
+-- From        : C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\top_b.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 ---------------------------------------------------------------------------------------------------
@@ -170,10 +170,9 @@ signal NET662 : STD_LOGIC;
 signal NET668 : STD_LOGIC;
 signal NET682 : STD_LOGIC;
 signal BUS1311 : STD_LOGIC_VECTOR (11 downto 0);
-signal BUS1331 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS1484 : STD_LOGIC_VECTOR (11 downto 0);
 signal BUS1510 : STD_LOGIC_VECTOR (7 downto 0);
-signal BUS1517 : STD_LOGIC_VECTOR (31 downto 0);
+signal BUS1677 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS454 : STD_LOGIC_VECTOR (11 downto 0);
 signal BUS464 : STD_LOGIC_VECTOR (31 downto 0);
 signal BUS506 : STD_LOGIC_VECTOR (4 downto 0);
@@ -203,7 +202,7 @@ U10 : Sign_Extend
 
 U11 : Memoria_de_Datos
   port map(
-       ad => BUS1517,
+       ad => BUS1677,
        clk => CLK,
        di => BUS602,
        do => BUS713,
@@ -228,8 +227,8 @@ U14 : mux_b_neg
   port map(
        salto => NET1322,
        salto_inst => NET1520,
-       salto_neg => BUS1331,
-       salto_posi => BUS1517
+       salto_neg => BUS1677,
+       salto_posi => BUS1677
   );
 
 U15 : ordenar_extSigno
@@ -246,8 +245,6 @@ U15 : ordenar_extSigno
   );
 
 NET1318 <= NET1322 and NET1530;
-
-BUS1331(31) <= not(BUS1517(31));
 
 U2 : suma4
   port map(
@@ -322,7 +319,7 @@ U6 : mux_rd
 U7 : mux_reg
   port map(
        alu2reg => NET682,
-       operacion_alu => BUS1517,
+       operacion_alu => BUS1677,
        registro_mem => BUS713,
        salida_reg => BUS598
   );
@@ -330,7 +327,7 @@ U7 : mux_reg
 U8 : ALU
   port map(
        alu_op => BUS638,
-       alu_resultado => BUS1517,
+       alu_resultado => BUS1677,
        op1 => BUS646,
        op2 => BUS644
   );

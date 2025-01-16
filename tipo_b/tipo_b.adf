@@ -3,13 +3,17 @@ Current Flow=Multivendor
 VCS=0
 version=1
 Current Config=compile
+
 [Configurations]
 compile=tipo_b
+
 [Library]
 tipo_b=.\tipo_b.lib
+
 [$LibMap$]
 tipo_b=.
 Active_lib=
+
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
@@ -17,13 +21,16 @@ SYNTH_TOOL=<none>
 IMPL_TOOL=<none>
 FAMILY=
 FLOWTOOLS=ONLY_IMPL
+
 [IMPLEMENTATION]
 UCF=
+
 [HierarchyViewer]
 SortInfo=u
 HierarchyInformation=top_b|top_b|0 
 ShowHide=ShowTopLevel
 Selected=
+
 [Files]
 /ALU.vhd=-1
 /Banco_de_Registros.vhd=-1
@@ -42,6 +49,8 @@ Selected=
 /ordenar_extSigno.bde=-1
 /top_b.bde=-1
 /claseB.awf=-1
+/saltos_pos.awf=-1
+
 [Files.Data]
 .\src\ALU.vhd=VHDL Source Code
 .\src\Banco_de_Registros.vhd=VHDL Source Code
@@ -60,7 +69,11 @@ Selected=
 .\src\ordenar_extSigno.bde=Block Diagram
 .\src\top_b.bde=Block Diagram
 .\src\claseB.awf=Waveform File
+.\src\saltos_pos.awf=Waveform File
+
 [file_out:/ordenar_extSigno.bde]
 /\compile\ordenar_extSigno.vhd=-1
+
 [file_out:/top_b.bde]
 /\compile\top_b.vhd=-1
+

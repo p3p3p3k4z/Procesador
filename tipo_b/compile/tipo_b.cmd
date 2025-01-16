@@ -1,1 +1,1 @@
--w -s "c:\My_Designs\procesadorB\library.cfg"  -j "c:\My_Designs\procesadorB\tipo_b\projlib.cfg"  -d "c:\My_Designs\procesadorB\tipo_b\compile\"  -work tipo_b -dbg -e 100 "c:\My_Designs\procesadorB\tipo_b\compile\top_b.vhd" 
+-w -s "C:\Users\Mario\Downloads\Procesador-main\library.cfg"  -j "C:\Users\Mario\Downloads\Procesador-main\tipo_b\projlib.cfg"  -d "C:\Users\Mario\Downloads\Procesador-main\tipo_b\compile\"  -work tipo_b -dbg -e 100 "C:\Users\Mario\Downloads\Procesador-main\tipo_b\src\mux_b_neg.vhd" 

@@ -37,17 +37,17 @@ S/memoria_de_datos=S/Memoria_de_Datos 40|0|2*18137
 V=0*30786
 
 [memoria_del_programa]
-A/behavioral=A/Behavioral 21|./src/memoria_de_programa.vhd|12|1*291561
-B/behavioral=3*113886
-H/behavioral=0*293013
+A/behavioral=A/Behavioral 21|./src/memoria_de_programa.vhd|12|1*543464
+B/behavioral=3*144674
+H/behavioral=0*634690
 R=./src/memoria_de_programa.vhd|5
 S/memoria_del_programa=40|0|2*9236
 V=0*41242
 
 [mux_b_neg]
-A/behavior=21|./src/mux_b_neg.vhd|13|1*302091
-B/behavior=3*114387
-H/behavior=0*300175
+A/behavior=21|./src/mux_b_neg.vhd|13|1*553994
+B/behavior=3*145175
+H/behavior=0*641852
 R=./src/mux_b_neg.vhd|4
 S/mux_b_neg=40|0|2*7510
 V=0*43822
@@ -110,9 +110,9 @@ S/suma4=40|0|2*4406
 V=0*66763
 
 [top_b]
-A/top_b=24|.\src\top_b.bde|10000|1*439962
-B/top_b=3*141615
-H/top_b=0*508009
+A/top_b=24|.\src\top_b.bde|10000|1*477500
+B/top_b=3*144262
+H/top_b=0*561138
 R=./compile/top_b.vhd|25
 V=0*507748
 
@@ -130,7 +130,7 @@ V=0*73599
 ./compile/ordenar_extSigno.vhd~ordenar_extSigno=60|0*356333*356664
 ./compile/ordenar_extSigno.vhd~ordenar_extSignoordenar_extSigno=60|0*356858*357037
 ./compile/top_b.vhd~top_b=60|0*462077*462269
-./compile/top_b.vhd~top_btop_b=60|0*545862*553017
+./compile/top_b.vhd~top_btop_b=60|0*598905*605972
 ./src/ALU.vhd~ALU=60|0*0*347
 ./src/ALU.vhd~behaviorALU=60|0*277867*279326
 ./src/Banco_de_Registros.vhd~Banco_de_Registros=60|0*4942*5502
@@ -143,9 +143,9 @@ V=0*73599
 ./src/decoder.vhd~decoder=60|0*14945*15405
 ./src/memoria_de_datos.vhd~BehavioralMemoria_de_Datos=60|0*289497*292920
 ./src/memoria_de_datos.vhd~Memoria_de_Datos=60|0*20798*21269
-./src/memoria_de_programa.vhd~Behavioralmemoria_del_programa=60|0*297894*300075
+./src/memoria_de_programa.vhd~Behavioralmemoria_del_programa=60|0*639571*641752
 ./src/memoria_de_programa.vhd~memoria_del_programa=60|0*33026*33345
-./src/mux_b_neg.vhd~behaviormux_b_neg=60|0*300266*300514
+./src/mux_b_neg.vhd~behaviormux_b_neg=60|0*642078*642450
 ./src/mux_b_neg.vhd~mux_b_neg=60|0*42327*42639
 ./src/mux_rd.vhd~behaviormux_rd=60|0*301090*301338
 ./src/mux_rd.vhd~mux_rd=60|0*48302*48652
@@ -161,14 +161,14 @@ V=0*73599
 ./src/suma4.vhd~suma4=60|0*64560*64865
 ./src/unidad_de_control.vhd~behaviorunidad_de_control=60|0*307868*311164
 ./src/unidad_de_control.vhd~unidad_de_control=60|0*67999*68598
-ModifyID=484
+ModifyID=544
 Version=73
 
 [~MFT]
-0=443|0tipo_b.mgf|553017|336923
-1=96|1tipo_b.mgf|439962|134754
+0=503|0tipo_b.mgf|642450|426278
+1=115|1tipo_b.mgf|553994|202384
 2=17|2tipo_b.mgf|29997|2869
-3=99|3tipo_b.mgf|141615|72334
+3=119|3tipo_b.mgf|145175|76173
 
 [~U]
 alu=ALU 11|0*2019|0*2246|3

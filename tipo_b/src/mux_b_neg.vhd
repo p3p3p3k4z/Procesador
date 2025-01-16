@@ -11,14 +11,17 @@ entity mux_b_neg is
 end mux_b_neg;
 
 architecture behavior of mux_b_neg is
+signal bit_pos : STD_LOGIC;
+signal bit_ne : STD_LOGIC;
 begin  
-
-    process(salto_inst)
+	bit_pos <= salto_posi(0);
+	bit_ne <= not(salto_posi(0));
+    process(salto_inst,bit_pos,bit_ne)
     begin
         if salto_inst = '1' then
-            salto <= salto_neg(0); 
+            salto <= bit_ne; 
         else
-            salto <= salto_posi(0);
+            salto <= bit_pos; 
         end if;
     end process;
 end behavior;
