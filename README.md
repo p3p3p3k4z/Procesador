@@ -6,6 +6,7 @@ Este programa debe ser ejecutado en ACTIVE-HDL
 - R
 - I
 - LS
+- B
 
 ### Actualizaciones
 - memoria de instrucciones
