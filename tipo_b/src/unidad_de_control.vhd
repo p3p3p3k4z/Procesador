@@ -57,7 +57,7 @@ begin
 			  "0000" when (funct3 = "100" and opcode = "0000011") else --lhu
 			  "0000" when (funct3 = "101" and opcode = "0000011") else  --lhb
 			  
-			  "0010" when (funct3 = "000" and opcode = "1100011")else  --beq
+			  "1010" when (funct3 = "000" and opcode = "1100011")else  --beq
 			  "0010" when (funct3 = "001" and opcode = "1100011")else  --bne
 			  "0101" when (funct3 = "100" and opcode = "1100011")else  --btl
 			  "0101" when (funct3 = "101" and opcode = "1100011")else  --bge
