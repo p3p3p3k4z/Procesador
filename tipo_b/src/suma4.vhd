@@ -12,7 +12,7 @@ entity suma4 is
 end suma4;
 
 architecture Behavioral of suma4 is
-    signal counter : INTEGER range 0 to 38 := 0; -- Contador interno con soporte para valores negativos
+    signal counter : INTEGER range 0 to 60 := 0; -- Contador interno con soporte para valores negativos
 begin
     process(clk, rst)
     begin
@@ -24,8 +24,8 @@ begin
             counter <= counter + to_integer(signed(a_in));
             
             -- Asegura que el contador no exceda los límites (-38 a 38)
-            if counter > 38 then
-                counter <= 38;
+            if counter > 60 then
+                counter <= 60;
             elsif counter < 0 then
                 counter <= 0;
             end if;

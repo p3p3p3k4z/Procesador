@@ -1,5 +1,5 @@
-MESSAGE "File: c:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd" 
+MESSAGE "File: Z:\Descargas\Procesador-main\tipo_b\src\memoria_de_programa.vhd" 
 MESSAGE "Compile Entity "memoria_del_programa"" 
 MESSAGE "Entity `memoria_del_programa' has been skipped - no difference detected." 
 MESSAGE "Compile Architecture "Behavioral" of Entity "memoria_del_programa"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]" 

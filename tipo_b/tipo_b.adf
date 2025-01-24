@@ -27,7 +27,7 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=top_b|top_b|0 
+HierarchyInformation=top_b|top_b|0
 ShowHide=ShowTopLevel
 Selected=
 
@@ -52,6 +52,7 @@ Selected=
 /saltos_pos.awf=-1
 /prorama.awf=-1
 /ciclo.awf=-1
+/collatz.awf=-1
 
 [Files.Data]
 .\src\ALU.vhd=VHDL Source Code
@@ -74,6 +75,7 @@ Selected=
 .\src\saltos_pos.awf=Waveform File
 .\src\prorama.awf=Waveform File
 .\src\ciclo.awf=Waveform File
+.\src\collatz.awf=Waveform File
 
 [file_out:/ordenar_extSigno.bde]
 /\compile\ordenar_extSigno.vhd=-1

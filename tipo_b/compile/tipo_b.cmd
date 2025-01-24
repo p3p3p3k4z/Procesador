@@ -1,1 +1,1 @@
--w -s "c:\Users\Mario\Downloads\Procesador-main\library.cfg"  -j "c:\Users\Mario\Downloads\Procesador-main\tipo_b\projlib.cfg"  -d "c:\Users\Mario\Downloads\Procesador-main\tipo_b\compile\"  -work tipo_b -dbg -e 100 "c:\Users\Mario\Downloads\Procesador-main\tipo_b\src\memoria_de_programa.vhd" 
+-w -s "Z:\Descargas\Procesador-main\library.cfg"  -j "Z:\Descargas\Procesador-main\tipo_b\projlib.cfg"  -d "Z:\Descargas\Procesador-main\tipo_b\compile\"  -work tipo_b -dbg -e 100 "Z:\Descargas\Procesador-main\tipo_b\src\memoria_de_programa.vhd" 
