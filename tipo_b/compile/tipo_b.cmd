@@ -1,1 +1,1 @@
--w -s "Z:\Descargas\Procesador-main\library.cfg"  -j "Z:\Descargas\Procesador-main\tipo_b\projlib.cfg"  -d "Z:\Descargas\Procesador-main\tipo_b\compile\"  -work tipo_b -dbg -e 100 "Z:\Descargas\Procesador-main\tipo_b\src\memoria_de_programa.vhd" 
+-w -s "C:\My_Designs\collatz\library.cfg"  -j "C:\My_Designs\collatz\tipo_b\projlib.cfg"  -d "C:\My_Designs\collatz\tipo_b\compile\"  -work tipo_b -dbg -e 100 "C:\My_Designs\collatz\tipo_b\src\memoria_de_programa.vhd" 
